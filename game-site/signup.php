@@ -21,6 +21,9 @@ if (isset($_GET["error"])) {
              else if ($_GET["error"] == "passwordcheck") {
               echo '<p class="error-message">Make sure your password match!</p>';
             }
+            else if ($_GET["error"] == "usertaken") {
+              echo '<p class="error-message">Your username is already in use!</p>';
+            }
             }
 
 
